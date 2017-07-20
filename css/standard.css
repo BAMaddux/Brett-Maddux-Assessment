@@ -1,0 +1,90 @@
+body {
+    background-image: url("../images/playful-kitten-6683.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% -5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 9vh;
+    margin-left: 3vw;
+    margin-bottom: 0;
+}
+
+.orangeText {
+    color: orange;
+    text-shadow: 3px 3px 1px #333333;
+}
+
+p {
+    display: inline-block;
+    margin-left: 3vw;
+}
+
+#netflixLogo {
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 11vh;
+    top: 4.5vh;
+}
+
+#navigationText {
+    position: absolute;
+    margin-left: 50vw;
+    bottom: 2vh;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color: orange;
+    text-shadow: 3px 3px 1px #555555;
+    margin-left: 1vw;
+    font-size: 5vh;
+}
+
+a:hover {
+    vertical-align: 50%;
+}
+
+#schedulePopUp {
+    display: none;
+    position: fixed;
+    background-color: black; opacity: 0.8;
+    max-width: 60%;
+    max-height: 60%;
+    top: 20%;
+    left: 20%;
+    border: 5px solid orange;
+    border-radius: 5%;
+}
+
+#schedule {
+    width: 99%;
+    color: orange;
+    font-size: 4vh;
+}
+
+.episodeName {
+    width: 20%;
+}
+
+.episodeDetails {
+    width: 75%;
+}
+
+#closeSchedule {
+    position: fixed;
+    height: 4%;
+    top: 0;
+    left: 0;
+}
