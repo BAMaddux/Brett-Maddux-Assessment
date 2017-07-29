@@ -43,17 +43,22 @@ p {
     bottom: 2vh;
 }
 
+.linkBox {
+    display: inline-block;
+    height: 7.5vh;
+    margin-left: 1vw;
+}
+
 a {
     text-decoration: none;
     font-weight: normal;
     color: orange;
     text-shadow: 3px 3px 1px #555555;
-    margin-left: 1vw;
     font-size: 5vh;
 }
 
-a:hover {
-    vertical-align: 50%;
+.linkBox:hover {
+    vertical-align: 2.5vh;
 }
 
 #schedulePopUp {
